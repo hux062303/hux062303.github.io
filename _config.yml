@@ -1,5 +1,5 @@
 # Site settings
-title: blog of hux062303
+title: blog
 SEOTitle: 
 header-img: img/drone.jpg    // todo download some dji drones
 email: hux062303@gmail.com
@@ -18,9 +18,10 @@ sidebar-about-description: "Goals determine what you going to be! I do like this
 
 # SNS settings
 RSS: false
-weibo_username:     墨菲吃葡萄要吐葡萄皮
-zhihu_username:     ssss
-github_username:    ss
+#weibo_username:     墨菲吃葡萄要吐葡萄皮
+weibo_address:      https://www.weibo.com/u/2702791663
+zhihu_username:     mo-fei-25
+github_username:    hux062303
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
