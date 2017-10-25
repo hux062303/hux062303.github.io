@@ -1,7 +1,7 @@
 # Site settings
 title: blog
 SEOTitle: 
-header-img: img/drone.jpg    // todo download some dji drones
+header-img: img/drone.jpg    // TODO, doesnot work, maybe it is too large?????
 email: hux062303@gmail.com
 description: "To be a robotics scientist."
 keyword: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception"
@@ -13,8 +13,6 @@ github_repo: "https://github.com/qiubaiying/hux062303.github.io.git" # you code 
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be! I do like this word."
 #sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
 
 # SNS settings
 RSS: false
@@ -30,13 +28,9 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -46,8 +40,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
-
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
@@ -59,9 +51,6 @@ kramdown:
 # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
-
-
-
 # Analytics settings
 # Baidu Analytics
 ba_track_id: ee8ac443cac3b4537810b1e2061cbe7b
@@ -70,21 +59,13 @@ ba_track_id: ee8ac443cac3b4537810b1e2061cbe7b
 ga_track_id: 'UA-108448958-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto
 
-
-
-
-
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
-
-
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
 
 # Friends
 friends: [
