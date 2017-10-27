@@ -1,7 +1,7 @@
 # Site settings
 title: blog
 SEOTitle: 
-header-img: img/drone.jpg    // TODO, doesnot work, maybe it is too large?????
+header-img: img/phantom.png    // TODO, doesnot work, maybe it is too large?????
 email: hux062303@gmail.com
 description: "To be a robotics scientist."
 keyword: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception"
@@ -11,7 +11,7 @@ github_repo: "https://github.com/qiubaiying/hux062303.github.io.git" # you code 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be! I do like this word."
+sidebar-about-description: "Keep forwarding!"
 #sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
