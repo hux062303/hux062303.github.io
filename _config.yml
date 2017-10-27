@@ -1,7 +1,7 @@
 # Site settings
 title: blog
 SEOTitle: 
-header-img: "img/phantom.png"    // TODO, doesnot work, maybe it is too large?????
+header-img: img/phantom.png    // TODO, doesnot work, maybe it is too large?????
 email: hux062303@gmail.com
 description: "To be a robotics scientist."
 keyword: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception"
