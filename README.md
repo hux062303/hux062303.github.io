@@ -1,13 +1,13 @@
-# BY Blog
+# Blog 
 
-> 下面是博客的搭建教程，这个教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 。
-> 
-> 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c)
-> 
+> blog folked and modified from: 
 ### [我的博客在这里 &rarr;](http://qiubaiying.github.io)
 
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
+> More details should be found at (http://qiubaiying.github.io). 
 
+### Notice: 
+
+> weibo usage is not valid in my case, so I just use weibo_address to replace weibo_name.
 
 ## 使用
 
@@ -29,14 +29,9 @@
 	* [标题底图](#header-image)
 	* [搜索展示标题-头文件](#seo-title)
 
-
-
 ### 环境
 
 如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题,还可以边修改边自动运行修改后的文件（需要刷新浏览器）。
-
-
-
 
 ### 开始
 
@@ -55,8 +50,6 @@ weibo_username: huxpro      # 你的微博账号，底部链接会自动更新�
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
 ```
-
-Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
 
 ### 撰写博文
 
@@ -116,43 +109,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
  
 内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
 
-### Social-media Account
-
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接, <http://www.jianshu.com/u/e71990ada2fd>
-
-	# SNS settings
-	RSS: false
-	jianshu_username: 	jianshu_id 
-	zhihu_username:     username
-	facebook_username:  username
-	github_username:    username
-	# weibo_username:   username
-	
-	
-
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
-
-### Friends
-
-好友链接部分。这会在全部页面显示。
-
-设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
-
-```
-# Friends
-friends: [
-    {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
-    },
-    {
-        title: "Apple",
-        href: "https://apple.com/"
-    }
-]
-```
-
-
 ### Keynote Layout
 
 HTML5幻灯片的排版：
@@ -171,33 +127,6 @@ iframe:     "http://huangxuan.me/js-module-7day/"
 ```
 
 iframe在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
-
-
-### Comment
-
-博客不仅支持多说[Duoshuo](http://duoshuo.com)评论系统,支持[Disqus](http://disqus.com)评论系统。
-
->多说即将关闭: 多说将于2017年6月1日正式关停服务, 所以还是用 Disqus 把！
-
-`Disqus`优点是：国际比较流行，界面也很大气、简介，如果有人评论，还能实时通知，直接回复通知的邮件就行了；缺点是：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
-
- 
-~~`多说` 优点是：支持国内各主流社交软件(微博，微信，豆瓣，QQ空间 ...)一键分享按钮功能，另外登陆比较方便，管理界面也是纯中文的，相对于disqus全英文的要容易操作一些；缺点是：就是界面丑了一点。
-当然你是可以自定义界面的css的，详情请看多说开发者文档 <http://dev.duoshuo.com/docs/5003ecd94cab3e7250000008>。~~
-
-
-
-
-**首先**，你需要去注册一个Disqus帐号。**不要直接使用我的啊！**
-
-**其次**，你只需要在下面的yaml头文件中设置一下就可以了。
-
-
-```
-disqus_username: shrotName
-```
-
-~~**最后**多说是支持分享的，如果你不想分享，请这样设置：`duoshuo_share: false`。你可以同时使用两个评论系统，不过个人感觉怪怪的。~~
 
 ### Analytics
 
@@ -234,25 +163,6 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
-
-### 关于收到"Page Build Warning"的 Email
-
-由于jekyll升级到3.0.x,对原来的 pygments 代码高亮不再支持，现只支持一种-rouge，所以你需要在 `_config.yml`文件中修改`highlighter: rouge`.另外还需要在`_config.yml`文件中加上`gems: [jekyll-paginate]`.
-
-同时,你需要更新你的本地 jekyll 环境.
-
-使用`jekyll server`的同学需要这样：
-
-1. `gem update jekyll` # 更新jekyll
-2. `gem update github-pages` #更新依赖的包
-
-使用`bundle exec jekyll server`的同学在更新 jekyll 后，需要输入`bundle update`来更新依赖的包.
-
-> Note：
-> 可以使用 `jekyll -s` 命令在本地实时配置博客，提高效率。详见 [Jekyll.com](http://jekyllcn.com/)
-
-参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
-
 
 ## 致谢
 
