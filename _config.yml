@@ -7,8 +7,8 @@ description: "To be a robotics scientist."
 keyword: ""
 url: "http://hux062303.github.io"          # your host, for absolute URL
 baseurl: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception."      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/hux062303/hux062303.github.io" # you code repository
-
+github_repo: "https://github.com/hux062303/hux062303.github.io.git" # you code repository
+# "https://github.com/qiubaiying/hux062303.github.io.git" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception. I am on my path TO BE a robotics scientist."
