@@ -4,9 +4,9 @@ SEOTitle: hux062303 blog
 header-img: img/phantom.png    #TODO, doesnot work, maybe it is too large?????
 email: hux062303@gmail.com
 description: "To be a robotics scientist."
-keyword: ""
+keyword: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception."
 url: "http://hux062303.github.io"          # your host, for absolute URL
-baseurl: "Robotics, Drones, Autonomous Navigation, Motion Planning, Sensor fusion, Perception."      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/hux062303.github.io.git" # you code repository
 # "https://github.com/qiubaiying/hux062303.github.io.git" # you code repository
 # Sidebar settings
