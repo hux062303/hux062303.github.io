@@ -5,7 +5,7 @@ subtitle:   initilize my blog using github io
 date:       2017-10-27
 address:    DTU, Lyngby
 author:     hux0620303
-header-img: img/sawafo-dtu.jpg
+header-img: img/post-hx-dtu.png
 catalog: true
 tags:
     - DTU life
