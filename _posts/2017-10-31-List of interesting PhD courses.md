@@ -21,6 +21,7 @@ tags:
 # List of interesting PhD courses
 ## DTU based:
 ### Msc Level:
+
 |Course No.| Course Name | ECTS |
 |:---:| :---:|:---:|
 |02504|Computer Vision|5|
@@ -43,6 +44,7 @@ tags:
 |02936|Bayesian Data Analysis|5|
 
 ### some backup courses:
+
 |Course No.| Course Name | ECTS |
 |:---:| :---:|:---:|
 |30330|Image Analysis with Microcomputer|10|
