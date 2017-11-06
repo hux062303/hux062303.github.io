@@ -50,7 +50,7 @@ tags:
 |30330|Image Analysis with Microcomputer|10|
 |02513|Industrial Machine Vision|5|
 |02561|Computer Graphics|5|
-|02625|Computational Science in Imaging|5|
+|02625|Computational Science in Imaging|5|  
 
 
 # External Stay
