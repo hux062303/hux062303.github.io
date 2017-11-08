@@ -45,17 +45,11 @@ tags:
         ```c++
         // MS VS2015: added header  
         # include <corecrt_search.h>  
-
         // MS VS2015: deprecated  
-        
         /* #ifdef HAVE_SEARCH_H  
-        
-        # include <search.h>  
-        
+            # include <search.h>  
         #else  
-        
-        extern void *lfind(const void *, const void *, size_t *, size_t, int (*)(const void *, const void *));  
-        
+            extern void *lfind(const void *, const void *, size_t *, size_t, int (*)(const void *, const void *));  
         #endif */  
         ```  
 
@@ -63,23 +57,14 @@ tags:
 
         ```c++
         #elif defined(H5_HAVE_LNX_TIMEZONE) // Dummy argument for now  
-        
             /* Linux libc-5 */  
-   
             the_time -= timezone - (tm.tm_isdst?3600:0);  
-        
         #elif defined(H5_HAVE_TIMEZONE) && defined(_MSC_VER) && _MSC_VER >= 1900  
-        
-        // In Visual Studio prior to VS2015 'timezone' is a global variable declared  
-        
+        // In Visual Studio prior to VS2015 'timezone' is a global variable declared          
         // in time.h. That variable was deprecated and in VS2015 is removed, with  
-        
         // _get_timezone replacing it.  
-        
         long time_zone = 0;  
-        
-        _get_timezone(&time_zone);  
-        
+        _get_timezone(&time_zone);          
         the_time -= time_zone - (tm.tm_isdst ? 3600 : 0);  
         ```  
 
@@ -87,11 +72,8 @@ tags:
 
         ```c++
         //Fix: add a space before and after PRIdword.  
-        
         // Construct the executable name from the process id, pointer to  
-        
         // this output window instance, and a count.  This should be unique.  
-        
         sprintf(exeName, "vtkWin32OWP_%" PRIdword "_%p_%u.exe", GetCurrentProcessId(), this, this->Count++);  
         ```
 
