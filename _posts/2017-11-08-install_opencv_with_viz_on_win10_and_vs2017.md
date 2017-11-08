@@ -29,53 +29,53 @@ tags:
       * Project: **vtklibxml2**, find **config.h**
 
       ``` c++
-      // comment the following line of codes
-      /* Win32 Std C name mangling work-around */
-      /* MS VS2015: deprecated. snprintf is now the standard in VS2015. */
-      // #if defined(_MSC_VER)
-      // # define snprintf _snprintf
-      // #endif
+      // comment the following line of codes  
+      /* Win32 Std C name mangling work-around */  
+      /* MS VS2015: deprecated. snprintf is now the standard in VS2015. */  
+      // #if defined(_MSC_VER)  
+      // # define snprintf _snprintf  
+      // #endif  
 
       ```
 
       * Project: **vtktiff**,  find File: **tiffiop.h**
 
         ```c++
-        // MS VS2015: added header
-        # include <corecrt_search.h>
+        // MS VS2015: added header  
+        # include <corecrt_search.h>  
 
-        // MS VS2015: deprecated
-        /* #ifdef HAVE_SEARCH_H
-        # include <search.h>
-        #else
-        extern void *lfind(const void *, const void *, size_t *, size_t,
-                           int (*)(const void *, const void *));
-        #endif */
-        ```
+        // MS VS2015: deprecated  
+        /* #ifdef HAVE_SEARCH_H  
+        # include <search.h>  
+        #else  
+        extern void *lfind(const void *, const void *, size_t *, size_t,  
+                           int (*)(const void *, const void *));  
+        #endif */  
+        ```  
 
       *  Project: **vtkhdf5**, find File:  **H5Omtime.c**
 
         ```c++
-        #elif defined(H5_HAVE_LNX_TIMEZONE) // Dummy argument for now
-        	/* Linux libc-5 */
-            the_time -= timezone - (tm.tm_isdst?3600:0);
-        #elif defined(H5_HAVE_TIMEZONE) && defined(_MSC_VER) && _MSC_VER >= 1900
-        // In Visual Studio prior to VS2015 'timezone' is a global variable declared
-        // in time.h. That variable was deprecated and in VS2015 is removed, with
-        // _get_timezone replacing it.
-        long time_zone = 0;
-        _get_timezone(&time_zone);
-        the_time -= time_zone - (tm.tm_isdst ? 3600 : 0);
-        ```
+        #elif defined(H5_HAVE_LNX_TIMEZONE) // Dummy argument for now  
+        	/* Linux libc-5 */  
+            the_time -= timezone - (tm.tm_isdst?3600:0);  
+        #elif defined(H5_HAVE_TIMEZONE) && defined(_MSC_VER) && _MSC_VER >= 1900  
+        // In Visual Studio prior to VS2015 'timezone' is a global variable declared  
+        // in time.h. That variable was deprecated and in VS2015 is removed, with  
+        // _get_timezone replacing it.  
+        long time_zone = 0;  
+        _get_timezone(&time_zone);  
+        the_time -= time_zone - (tm.tm_isdst ? 3600 : 0);  
+        ```  
 
       * Project: **vtkCommonCore**, find **vtkWin32ProcessOutputWindow.cxx**
 
         ```c++
-        //Fix: add a space before and after PRIdword.
-        // Construct the executable name from the process id, pointer to
-          // this output window instance, and a count.  This should be unique.
-          sprintf(exeName, "vtkWin32OWP_%" PRIdword "_%p_%u.exe",
-                  GetCurrentProcessId(), this, this->Count++);
+        //Fix: add a space before and after PRIdword.  
+        // Construct the executable name from the process id, pointer to  
+          // this output window instance, and a count.  This should be unique.  
+          sprintf(exeName, "vtkWin32OWP_%" PRIdword "_%p_%u.exe",  
+                  GetCurrentProcessId(), this, this->Count++);  
         ```
 
 4. Download **OpenCV**([version 3.1.0](https://github.com/opencv/opencv/tree/3.1.0)) and [OpenCV Contrib](https://github.com/opencv/opencv_contrib/tree/3.1.0); Be careful to set the following options:
