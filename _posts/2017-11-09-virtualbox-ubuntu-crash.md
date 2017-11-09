@@ -44,5 +44,5 @@ I hope it will work for all of you also.
 ```
 
 ## reference
-[virual box ubuntu crash disscussion](https://forums.virtualbox.org/viewtopic.php?f=6&t=80178)
+[Blue screen on Ubuntu start](https://forums.virtualbox.org/viewtopic.php?f=6&t=80178)
 
