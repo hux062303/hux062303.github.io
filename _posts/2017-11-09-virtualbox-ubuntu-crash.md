@@ -43,3 +43,6 @@ When you run it, you will see there is a dependency on linux-generic-hwe that is
 I hope it will work for all of you also.
 ```
 
+## reference
+[virual box ubuntu crash disscussion](https://forums.virtualbox.org/viewtopic.php?f=6&t=80178)
+
