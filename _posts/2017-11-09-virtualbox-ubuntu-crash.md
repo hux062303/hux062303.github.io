@@ -43,6 +43,21 @@ When you run it, you will see there is a dependency on linux-generic-hwe that is
 I hope it will work for all of you also.
 ```
 
+# shared folder在virtualbox里面mount不上的问题的解决方案
+
+> You have to mount your folder on your VM.  
+> First you need to install Guest Additions (although I already did this during the installation).  
+> Start your VM  
+> Devices > Insert Guest Additions CD image... *如果你没有cd，没有关系，去下载一个Guest Additions.ios就可以了*  
+> I had to manually mount the CD: sudo mount /dev/cdrom /media/cdrom *如果你不是走CD这条路，需要先到/media目录下看一眼，VBoxLinuxAdditions。run在哪个文件夹下面*  
+> Install the necessary packages: **sudo apt-get install make gcc linux-headers-$(uname -r)**，很关键，我就是试了这一步之后才成功的  
+> Install the Guest Additions: **sudo /media/cdrom/VBoxLinuxAdditions.run**.这一步也很关键，注意去你自己的目录下run，不要直接copy，不会成功的.  
+> Now you can mount your share using:  
+> mkdir ~/new  
+> sudo mount -t vboxsf New ~/new  
+> Where New is the name of your shared folder.  
+> Now you can access the shared folder at ~/new.  
+
 ## reference
 [Blue screen on Ubuntu start](https://forums.virtualbox.org/viewtopic.php?f=6&t=80178)
-
+[Why can't I access a shared folder from within my Virtualbox machine?](https://askubuntu.com/questions/456400/why-cant-i-access-a-shared-folder-from-within-my-virtualbox-machine)
