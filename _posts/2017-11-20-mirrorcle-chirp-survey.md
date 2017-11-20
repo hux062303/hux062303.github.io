@@ -39,3 +39,4 @@ tags:
 Berkeley还有一家MEMS的3D Ultrasonic spin-off [Chirp](http://www.chirpmicro.com/)，用于gesture recognition，也很强...... 
 
 *充分说明了一个道理：美帝，掌握核心科技........*
+*从这两家公司的论文列表看，也都是一个套路，看来只要核心技术一成，就可以围绕着这个核心技术，找不同的应用点，换不同的优化方法或者使用场景去灌水....*
