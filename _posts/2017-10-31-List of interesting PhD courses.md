@@ -26,14 +26,16 @@ tags:
 |   02614    | High Performance Computing  |  5   |
 
 ### PhD Level:
-#### DTU available courses
+#### DTU available courses   
+
 | Course No. |               Course Name                | ECTS |
 | :--------: | :--------------------------------------: | :--: |
 |   31389    | Advanced topics in Robotics and Autonomous Systems |  5   |
 |   02936    |          Bayesian Data Analysis          |  5   |
 |    xxxx    |     International GNSS Summer School     | 2.5  |
 
-#### self-study courses
+#### self-study courses   
+
 | Course No. |               Course Name                | ECTS |
 | :--------: | :--------------------------------------: | :--: |
 |    xxxx    | Visual-Inertial navigation systems or colloborative localization & mapping between aerial and ground robots |  5   |
