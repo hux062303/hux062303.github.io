@@ -11,47 +11,64 @@ tags:
     - DTU life
 ---
 
-> # I am preparing my PhD study plan whcih needs sorts of infomation like: 
-> * PhD courses
-> * external stay
-> * project description
-> * potentiala conference and journal  
-> So I just list them out for later usage.
+> * PhD courses ✔︎
+> * external stay ✔︎
+> * potentiala conference and journal   ✔︎
 
 # List of interesting PhD courses
 ## DTU based:
 ### Msc Level:
 
-|Course No.| Course Name | ECTS |
-|:---:| :---:|:---:|
-|02504|Computer Vision|5|
-|31388|Advanced Autonomous Robots|10|
-|02456|Deep Learning|5|
-|02614|High Performance Computing|5|
-|30540|Mapping from Aerial and Satellite Images|5|
-|30571|Smart City sensor Technology|5|
-|02450|Introduction to Machine Learning and Data Mining|5|
-|02506|Advanced Image Analysis|5|
-|02460|Advanced Machine Learning|5|
-|02507|Project work with Image Analysis and Computer Graphics|5|
-|02502|Image Analysis|5|
+| Course No. |         Course Name         | ECTS |
+| :--------: | :-------------------------: | :--: |
+|   02504    |       Computer Vision       |  5   |
+|   30550    | Satellite Based Positioning |  5   |
+|   02614    | High Performance Computing  |  5   |
 
 ### PhD Level:
-|Course No.| Course Name | ECTS |
-|:---:| :---:|:---:|
-|31389|Advanced topics in Robotics and Autonomous Systems|5|
-|02943|Image Analysis and Computer Graphics Summer School on Graphical Models|3|
-|02936|Bayesian Data Analysis|5|
+#### DTU available courses
+| Course No. |               Course Name                | ECTS |
+| :--------: | :--------------------------------------: | :--: |
+|   31389    | Advanced topics in Robotics and Autonomous Systems |  5   |
+|   02936    |          Bayesian Data Analysis          |  5   |
+|    xxxx    |     International GNSS Summer School     | 2.5  |
+
+#### self-study courses
+| Course No. |               Course Name                | ECTS |
+| :--------: | :--------------------------------------: | :--: |
+|    xxxx    | Visual-Inertial navigation systems or colloborative localization & mapping between aerial and ground robots |  5   |
 
 ### some backup courses:
 
-|Course No.| Course Name | ECTS |
-|:---:| :---:|:---:|
-|30330|Image Analysis with Microcomputer|10|
-|02513|Industrial Machine Vision|5|
-|02561|Computer Graphics|5|
-|02625|Computational Science in Imaging|5|  
-
+| Priority | Course No. |            Course Name            | ECTS |
+| :------: | :--------: | :-------------------------------: | :--: |
+|    1     |   30330    | Image Analysis with Microcomputer |  10  |
+|    2     |   02506    |      Advanced Image Analysis      |  5   |
+|    3     |   02513    |     Industrial Machine Vision     |  5   |
+|    4     |   31388    |    Advanced Autonomous Robots     |  10  |
+|    5     |   02460    |     Advanced Machine Learning     |  5   |
 
 # External Stay
+
+|                  Where                   |                Professor                 |  Expertise Area   |                   Link                   |
+| :--------------------------------------: | :--------------------------------------: | :---------------: | :--------------------------------------: |
+|           Univeristy of Zurich           | [Davide Sacramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html) |  Visual Odometry  | [website](http://rpg.ifi.uzh.ch/people_scaramuzza.html) |
+|      Technische Universität München      | [Daniel Cremers](https://vision.in.tum.de/members/cremers) |       VSLAM       | [website](https://vision.in.tum.de/members/cremers) |
+| **Hong Kong University of Science and Technology** | [Shen Shao Jie](http://uav.ust.hk/group/) |  Visual Odometry  |   [website](http://uav.ust.hk/group/)    |
+|      Aalborg University Copenhagen       |  [Volker Krueger](http://rvmi.aau.dk/)   | Vision for robots |                                          |
+
+**xx** indicates where I has already had some contacts.
+
+**backup**  
+
+|       Where        |                Professor                 |    Expertise Area    |                   Link                   |
+| :----------------: | :--------------------------------------: | :------------------: | :--------------------------------------: |
+| University of Bonn | [Cyrill Stachniss](http://www.ipb.uni-bonn.de/people/cyrill-stachniss/) |         SLAM         | [Lab](http://www.ipb.uni-bonn.de/people/cyrill-stachniss/) |
+|        EPFL        |       [TOPO](http://topo.epfl.ch/)       |     localization     |       [lab](http://topo.epfl.ch/)        |
+|        ETH         |      [ASL](http://www.asl.ethz.ch/)      |         UAV          |      [lab](http://www.asl.ethz.ch/)      |
+|      TU Graz       | [Team Fraundorfer](https://www.tugraz.at/institute/icg/research/team-fraundorfer/) |        VSLAM         | [lab](https://www.tugraz.at/institute/icg/research/team-fraundorfer/) |
+|        ICL         | [Stefan Leutenegger](http://www.imperial.ac.uk/people/s.leutenegger) |         SLAM         |                                          |
+|      TUDelft       | [Guido de Croon](http://mavlab.tudelft.nl/staff/) | Optical flow for UAV |                                          |
+
+
 
