@@ -15,7 +15,9 @@ tags:
 1. 访问[boost](http://www.boost.org/)，获取release版本的boost，**一般最好不要选择最新的或者alpha，beta等非正式版本**；
 2. 下载安装文件，这里我使用的是[boost_1_65_1.zip](http://www.boost.org/users/download/)；
 3. 解压，注意阅读[Getting Stated](http://www.boost.org/doc/libs/1_65_1/more/getting_started/windows.html), 大部分的包是header only的，也就是说boost的一部分库是可以和Eigen一样直接包含使用的~但是，有一部分包需要build，而由于boost里面的包相互之间可能会有一些包含引用，未避免后续使用出现问题，还是建议把所有的包都build了；
-4. 打开正确的command，由于使用的是VS2017，所以我打开的是command prompt for VS2017（**这里注意，使用不正确的command，可能出现类似build engine 的错误，不要慌**）, cd到boost目录，执行`.\bootstrap.bat`  
+4. 打开正确的command，由于使用的是VS2017，所以我打开的是command prompt for VS2017（**这里注意，使用不正确的command，可能出现类似build engine 的错误，不要慌**）, cd到boost目录，执行:  
+
+`.\bootstrap.bat`  
 
 `b2 install --prefix=DIRECTORY_YOU_WANT_TO_INSTALL_BOOST`  
 
