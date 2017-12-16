@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      Odroid XU4 Cross Compile相关资料及总结
@@ -9,7 +8,7 @@ author:     hux0620303
 header-img: img/milky-way.jpg
 catalog: true
 tags:
-    - boost library
+    - Odroid XU4
 ---
 
 
