@@ -72,6 +72,9 @@ arm-linux + TAB出你的gcc compiler -v
 
 这些没有必要加。
 
+###关于OpenCV的更新###
+其实没有必要去下载一个个的3rdparty package, 如果使用的是source code，opencv包里面的3rdparty已经包含了链接中说的一些小包。且如果是针对支持NEON的ARM，如果想要打开NEON优化，需要对ZLIB，Libpng, opencv在编译时都打开NEON选项，实在是很麻烦。还不如直接使用OpenCV的3rdparty，主要在cmake设定选项的时候，选择build png, build zlib, build jpeg等等，并且在下面enable NEON选项选中，enable vfpv3选中，执行编译就可以了。
+
 
 
 ## GCC 及 ARM 相关编译选项
