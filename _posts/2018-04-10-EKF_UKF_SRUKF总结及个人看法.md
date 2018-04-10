@@ -5,7 +5,7 @@ subtitle:
 date:       2018-04-10
 address:    DTU, Lyngby
 author:     hux0620303
-header-img: img/es_state.jpg
+header-img: img/statistics.jpg
 catalog: true
 tags:
     - filter
